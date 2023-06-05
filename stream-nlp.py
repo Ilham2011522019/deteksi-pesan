@@ -23,7 +23,7 @@ if st.button('Hasil Deteksi'):
     if (predict_fraud == 0):
         fraud_detection = 'Pesan Normal'
     elif (predict_fraud == 1):
-        fraud_detection = 'Pesan Fraud'
+        fraud_detection = 'Pesan Penipuan'
     else :
         fraud_detection = 'Pesan Promo'
 
